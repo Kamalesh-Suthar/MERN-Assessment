@@ -1,0 +1,62 @@
+.MainContainer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12%;
+    border-bottom: 1px solid #000;
+    background: aqua;
+    box-sizing: border-box;
+}
+
+.LeftSection, .RightSection {
+    display: flex;
+    width: 20%;
+}
+
+.LeftSection {
+    justify-content: left;
+}
+
+.RightSection {
+    justify-content: right;
+    align-items: center;
+}
+
+.Logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.FilterContainer {
+    padding: 0;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.InputField {
+    padding: 4px 12px;
+    outline: none;
+    border: none;
+}
+
+.InputField::placeholder {
+    font-size: 14px;
+    padding: 12px;
+}
+
+.CodeGenerator {
+    width: 60px;
+    height: 43px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.CodeGeneratorImage {
+    width: 100%;
+    height: 100%;
+}

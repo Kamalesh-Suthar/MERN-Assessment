@@ -1,0 +1,49 @@
+.MainContainer {
+    margin: 80px 15%;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background: azure;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.1);
+}
+
+.ImageContainer {
+    width: 40%;
+}
+
+.PlayerImage {
+    width: 100%;
+    height: auto;
+}
+
+.RightSection {
+    padding: 80px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.PlayerName {
+    font-size: 36px;
+    margin: 0 0 16px 0;
+    font-weight: 600;
+}
+
+.TeamName {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 8px 0;
+}
+
+.PlayerPrice, .PlayingStatus, .PlayingPosition {
+    margin: 0 0 6px 0;
+}
+
+.PlayerPrice {
+    font-weight: 500;
+}

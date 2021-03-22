@@ -1,0 +1,43 @@
+.MainContainer {
+    padding: 24px 15%;
+}
+
+.TeamDescriptionContainer {
+    width: 100%;
+    height: 400px;
+}
+
+.AddPlayerBtn {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: #fff;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.2);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.FormMainContainer {
+    width: 400px;
+    margin: 12px auto;
+}
+
+.FormContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FormInputFields {
+    width: 100%;
+    margin: 12px 0;
+    padding: 4px 12px;
+}
+
+::placeholder {
+    text-transform: uppercase;
+}

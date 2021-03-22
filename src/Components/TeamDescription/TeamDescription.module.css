@@ -1,0 +1,36 @@
+.MainContainer {
+    width: 100%;
+    height: 40%;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ImageContainer {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.TeamImage {
+    height: 100%;
+    width: 20%;
+}
+
+.RightContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.TeamName {
+    font-weight: 600;
+    font-size: 28px;
+}
